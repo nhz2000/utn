@@ -1,0 +1,18 @@
+.texto{
+    margin: 100px;
+    display: grid;
+    place-items: center;
+    background-color: red;
+
+    box-shadow: 30px 20px 10px black;
+    border-radius: 20px;
+
+}
+div{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px;
+    column-gap: 50px;
+    column-count: 3;
+    
+
+}
