@@ -1,0 +1,38 @@
+body {
+    margin: 50px;
+    padding: 100px;
+}
+
+.bar {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 600px;
+  height: 200px;
+  border: 3px solid black;
+}
+
+.cuadrado {
+    display: grid;
+    place-items: center;
+    width: 300px;
+    height: 200px;
+    margin: 0px;
+}
+
+.rojo {
+width: 300%;
+    background-color: red;
+}
+
+.azul {
+width: 300%;
+margin: 150px;
+    background-color: blue;
+}
+
+.verde {
+width: 300%;
+    background-color: green;
+}
