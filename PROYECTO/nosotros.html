@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Aquario</title>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .history {
+            text-align: left;
+            margin-bottom: 30px;
+        }
+        .staff-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+        .staff-member {
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .staff-member img {
+            width: 100%;
+            border-radius: 50%;
+        }
+        .staff-name {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .staff-role {
+            color: #555;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+        .staff-description {
+            font-size: 0.8em;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="holder">
+            <img src="img/logo/logo.png" width="100" alt="Aquario">
+        </div>
+        <h1>Aquario SCZ</h1>
+    </header>
+    <nav>
+        <ul class="holder">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="activo" href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="accesorios.html">Accesorios</a></li>
+        </ul>
+    </nav>
+    <main class="holder">
+        <div class="container">
+            <div class="history">
+                <h2>Historia</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus, nulla et eleifend semper, risus dui interdum est, sit amet aliquet dolor metus non risus. Sed egestas semper auctor. Suspendisse eu enim a nulla facilisis consequat. Nam consectetur semper dolor eleifend rutrum. Nulla facilisi. Mauris sagittis aliquet massa fringilla ultrices. Vestibulum molestias ipsum vulputate justo.</p>
+            </div>
+
+            <div class="staff-grid">
+                <div class="staff-member">
+                    <img src="img/nosotros/aquarista.jpg""Juan Gómez" class="foto">
+                    <div class="staff-name">Juan Gómez</div>
+                    <div class="staff-role">Aquarista general</div>
+                    <div class="staff-description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestias ipsum vulputate justo.</p>
+                    </div>
+                </div>
+                <!-- Repite el bloque .staff-member para cada miembro del equipo -->
+                <!-- ... otros miembros del equipo ... -->
+            </div>
+            <div class="staff-grid">
+                <div class="staff-member">
+                    <img src="img/nosotros/mujer1.jpeg""Julieta Rojas" class="foto">
+                    <div class="staff-name">Julieta Rojas</div>
+                    <div class="staff-role"></div>
+                    <div class="staff-description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestias ipsum vulputate justo.</p>
+                    </div>
+                </div>
+        </div>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>

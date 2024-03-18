@@ -1,0 +1,132 @@
+/*
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+*/
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+
+header{
+    background-color: midnightblue;
+    padding: 0px 10px;
+}
+
+
+header h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    margin-left: 10px;
+}
+
+
+nav{
+    background-color: mediumaquamarine;
+    margin-bottom: 20px;
+
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    column-gap: 100px;
+}
+
+nav li{
+    flex-grow: 1;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+
+}
+
+nav ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul li a.activo{
+    background-color: mediumseagreen;
+}
+
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2{
+    color: mediumaquamarine;
+    font-weight: 400;
+
+}
+
+.homeimg{
+    text-align: center;
+}
+
+/*Comienzo home*/
+.bienvenidos{
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+   
+
+}
+
+.recomendaciones{
+    width: 25%;
+    background-color: cadetblue;
+
+}
+
+.columnas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bienvenidos p{
+    font-size: 20px;
+}
+
+.recomendaciones p{
+    font-size: 15px;
+}
+/*Fin home*/ 
+
+
+/*inicio nosotros*/
+
+.staff-member img {
+    width: 100px;
+}
+
+/* Regla específica para la imagen de Juan */
+.foto{
+    width: 60px;
+}
+
+/*fin nosotros*/
